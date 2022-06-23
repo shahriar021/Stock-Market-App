@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class dashboard extends AppCompatActivity {
-    CardView c1,c4;
+    CardView c1,c2,c4;
     TextView t1;
 
     @Override
@@ -19,11 +19,21 @@ public class dashboard extends AppCompatActivity {
         getSupportActionBar().hide();
 
         c1=findViewById(R.id.friends);
+        c2=findViewById(R.id.profile);
         c4=findViewById(R.id.exit);
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(dashboard.this,MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+
+        c2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(dashboard.this,calculator.class);
                 startActivity(i);
             }
         });

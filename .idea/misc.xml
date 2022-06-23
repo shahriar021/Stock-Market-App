@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/ALLMyAndroidApp/stck/app/src/main/res/drawable-v24/exit.xml" value="0.161" />
+        <entry key="..\:/ALLMyAndroidApp/stck/app/src/main/res/layout/activity_calculator.xml" value="0.22239583333333332" />
         <entry key="..\:/ALLMyAndroidApp/stck/app/src/main/res/layout/activity_dashboard.xml" value="0.22239583333333332" />
         <entry key="..\:/ALLMyAndroidApp/stck/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/ALLMyAndroidApp/stck/app/src/main/res/layout/activity_splash.xml" value="0.22239583333333332" />
         <entry key="..\:/ALLMyAndroidApp/stck/app/src/main/res/layout/row.xml" value="0.22239583333333332" />
       </map>
     </option>
